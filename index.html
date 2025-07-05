@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>loja-Raro</title>
-    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" >
-    <link rel="stylesheet" href="./css/inicio.css" >
-   <link rel="stylesheet" href="./css/produtos.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loja-hardware</title>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/inicio.css" />
+    <link rel="stylesheet" href="./css/produtos.css" />
   </head>
   <body>
     <main>
       <!-- Cabeçalho e navegação -->
       <header>
-        <h1>Bem-vindo à loja Raro</h1>
-        <p>Explore nossos produtos exclusivos e ofertas especiais!</p>
-        <img src="./img/logo.png" alt="Logo da loja Raro" class="logo" />
+         <div>
+          <img class="menu" src="./img/cardapio.png" width="50px" alt="">
+        </div>
+        <h1>Bem-vindo à loja Hardware</h1>
+       
+        <p class="descript">Explore nossos produtos exclusivos e ofertas especiais!</p>
+        <img class="logo" src="https://sdmntpreastus.oaiusercontent.com/files/00000000-1638-61f9-a06e-764e1a795dfd/raw?se=2025-07-05T18%3A33%3A54Z&sp=r&sv=2024-08-04&sr=b&scid=3ee85294-8a6e-51bf-869b-266079ac9f5f&skoid=b0fd38cc-3d33-418f-920e-4798de4acdd1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-05T08%3A36%3A47Z&ske=2025-07-06T08%3A36%3A47Z&sks=b&skv=2024-08-04&sig=3zLDrD45R7q2oOdDMVP8tBWPw76HeMplZax%2BzUFNZ0Y%3D" width="100px" />
         <p class="slogan">Produtos raros, ofertas imperdíveis!</p>
       </header>
       <!-- Navegação principal -->
@@ -33,69 +37,66 @@
         <ul class="lista-produtos">
           <!-- Lista de produtos -->
           <li>
-
-            <img src="./img/anel 1.jpeg" alt="anel1" />anel de ouro
-           <p>De: <span id="preco-antigo">R$ 199,90</span> Por: R$ 149,90</p>
-            <button onclick="clicar" id="botao-compra"> Comprar</button>
+            <img src="https://www.usinainfo.com.br/1020551-thickbox_default/placa-de-circuito-impresso-ilhada-universal-432-furos-dupla-face-5x7cm.jpg" alt="anel1" />Placa de circuito impresso
+            <p>De: <span id="preco-antigo">R$ 199,90</span> Por: R$ 149,90</p>
+            <button onclick="abrir()" id="botao-compra">Comprar</button>
           </li>
 
           <li>
-            <img src="./img/anel 2.jpeg" alt="anel2" />anel de diamante
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQed8fQ4BE-Zyh0_MddWJU6m_OuYvTHXLHSw&s" alt="anel2" />placa arduino + cabo USB
             <p>De: <span id="preco-antigo">R$ 863,83</span> Por: R$ 549,90</p>
-             <button onclick="clicar" id="botao-compra"> Comprar</button>
+            <button onclick="clicar" id="botao-compra">Comprar</button>
           </li>
 
           <li>
-            <img src="./img/anel 3.jpeg" alt="anel3" />anel para casamento
+            <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/1/0/100-100000927box_1.jpg" alt="anel3" /> AMD processador Ryzen 5 5600G
             <p>De: <span id="preco-antigo">R$ 740,00</span> Por: R$ 400,00</p>
-             <button onclick="clicar" id="botao-compra"> Comprar</button>
+            <button onclick="clicar" id="botao-compra">Comprar</button>
           </li>
 
           <li>
-            <img src="./img/brinco 1.jpeg" alt="brinco1" />Joias raras
+            <img src="https://compraco.com.br/cdn/shop/articles/Escolhendo-baterias-para-robos.png?v=1718094029" alt="brinco1" />bateria para robôs
             <p>De: <span id="preco-antigo">R$ 340,00</span> Por: R$ 149,90</p>
-             <button onclick="clicar" id="botao-compra"> Comprar</button>
-
+            <button onclick="clicar" id="botao-compra">Comprar</button>
           </li>
 
           <li>
-            <img src="./img/brinco 2.jpeg" alt="brinco2" />
-            brinco de diamante
-           <p>De: <span id="preco-antigo">R$ 550,00</span> Por: R$ 349,90</p>
-             <button onclick="clicar" id="botao-compra"> Comprar</button>
+            <img src="https://http2.mlstatic.com/D_NQ_NP_995095-MLB50023472930_052022-O.webp" alt="brinco2" />
+            raspberry py placa
+            <p>De: <span id="preco-antigo">R$ 550,00</span> Por: R$ 349,90</p>
+            <button onclick="clicar" id="botao-compra">Comprar</button>
           </li>
 
           <li>
-            <img src="./img/brinco 3.jpeg" alt="brinco3" />
-            brinco de brilhantes
-            <p>De: <span id="preco-antigo">R$ 763,90</span> Por: R$ 499,90</p>
-             <button onclick="clicar" id="botao-compra"> Comprar</button>
+            <img src="https://images.tcdn.com.br/img/img_prod/945233/multimetro_digital_60_10_133779_1_8f274cafe500597c37c86ad7bd198b9e.jpg" alt="brinco3" />
+            multimetro_digital
+            <p>De: <span id="preco-antigo">R$ 70,90</span> Por: R$ 50,90</p>
+            <button onclick="clicar" id="botao-compra">Comprar</button>
           </li>
 
           <li>
-            <img src="./img/colar1.jpeg" alt="colar1" />
-            colar de flores
+            <img src="https://patoloco.com.br/arquivos/produtos/imagens_adicionais/6191cf91b650f5413579c1cb1b959cdc8f1565ca.jpeg" alt="colar1" />
+            placa mãe
             <p>De: <span id="preco-antigo">R$ 340,00</span> Por: R$ 149,90</p>
-             <button onclick="clicar" id="botao-compra"> Comprar</button>
+            <button onclick="clicar" id="botao-compra">Comprar</button>
           </li>
 
           <li>
-            <img src="./img/colar2.jpeg" alt="colar2" />
-            colar de esmeralda
-           <p>De: <span id="preco-antigo">R$ 145,00</span> Por: R$ 99,99</p>
-             <button onclick="clicar" id="botao-compra"> Comprar</button>
+            <img src="https://elastobor.vtexassets.com/arquivos/ids/247002/ALICATE-PRESS%EF%BF%BDO-TRAMONTINA-COM-MORDENTE-CURVO-10-KIT-C--3UN.jpg?v=637968701095000000" alt="colar2" />
+            alicate de pressão
+            <p>De: <span id="preco-antigo">R$ 30,00</span> Por: R$ 15,99</p>
+            <button onclick="clicar" id="botao-compra">Comprar</button>
           </li>
         </ul>
         <!-- Lista de produtos pode ser adicionada aqui -->
+
+      
       </section>
 
-     
       <footer>
         <p>&copy; 2025 loja-Raro. Todos os direitos reservados.</p>
       </footer>
+      <script src="./js/modal.js"></script>
     </main>
-
-      
-
   </body>
 </html>
