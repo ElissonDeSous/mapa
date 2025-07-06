@@ -1,9 +1,6 @@
-let modal = document.getElementById('modal')
-function abrir(){  
-    modal.style.display = 'flex'
-
-}
-
+const modal = document.getElementById("modal")
 function fechar(){
-     modal.style.display = "none"
+    modal.style.display = "none"
+
+    
 }

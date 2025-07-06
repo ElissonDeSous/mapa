@@ -178,6 +178,38 @@ footer {
   font-size: 30px;
   cursor: pointer;
 }
+.modal-boas-vindas{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0,0.5);
+  position: fixed;
+  top:0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.modal{
+  width:600px ;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.paragrafo{
+  font-size: 1.5em;
+}
+.botao{
+  font-size: 20px;
+  background-color: rgb(255, 6, 6);
+  cursor: pointer;
+  color: white;
+  height: 50px;
+  width: 200px;
+}
 /* Responsive styles */
 @media (max-width: 600px) {
  
